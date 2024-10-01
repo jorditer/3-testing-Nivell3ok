@@ -40,7 +40,7 @@ function orderByYear(array) {
 // Exercise 6: Calculate the average of the movies in a category
 function moviesAverageByCategory(array, category) {
   let moviesByGenre = array.filter(movie => movie.genre.some(genre => genre === category));
-  if (moviesByGenre === 0) {
+  if (moviesByGenre.length === 0) {
     return 0;
   }
   let result = moviesByGenre.reduce((acc, movie) => acc + movie.score, 0)/moviesByGenre.length;
