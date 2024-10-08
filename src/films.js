@@ -9,6 +9,7 @@ function getAllDirectors(array) {
 // Exercise 2: Get the films of a certain director
 function getMoviesFromDirector(array, directorName) {
   let result =  array.filter(movie => movie.director === directorName);
+  // console.log(result);
   return result;
 }
 
@@ -16,12 +17,14 @@ function getMoviesFromDirector(array, directorName) {
 function moviesAverageOfDirector(array, director) {
  let scores = array.filter(movie => movie.director === director)
  let result = parseFloat((scores.reduce((acc, score) => acc + score.score, 0) / (scores.length)).toFixed(2));
+  // console.log(result);
  return (result);
 }
 
 // Exercise 4:  Alphabetic order by title 
 function orderAlphabetically(array) {
   let result = array.map(movie => movie.title).sort().slice(0, 20);
+  // console.log(result);
   return result;
 }
 
@@ -35,6 +38,7 @@ function orderByYear(array) {
       return a.title.localeCompare(b.title);
     }
   })
+  // console.log(result);
   return result;
 }
 // Exercise 6: Calculate the average of the movies in a category
@@ -44,6 +48,7 @@ function moviesAverageByCategory(array, category) {
     return 0;
   }
   let result = moviesByGenre.reduce((acc, movie) => acc + movie.score, 0)/moviesByGenre.length;
+  // console.log(result);
   return result;
 }
 
@@ -67,6 +72,7 @@ function hoursToMinutes(array) {
     } 
     return newMovie;
   })
+  // console.log(result);
   return result;
 }
 
@@ -75,6 +81,7 @@ function bestFilmOfYear(array, year) {
   const moviesByYear = array.filter(movie => movie.year === year);
   const result = moviesByYear.reduce((best, movie) => best.score > movie.score ? best: movie, moviesByYear[0]);
   return [result];
+  // console.log(result);
 }
 
 
