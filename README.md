@@ -1,10 +1,8 @@
 # Sprint 3
 
-This sprint contains a series of practical exercises designed learn arrays and object methods. The exercises focus on various aspects of data manipulation and processing using JavaScript's built-in functions and methods. Additionally, tests have been implemented to validate the correct functioning of each method, providing a more robust and reliable experience.
-
 ## Introduction
 
-Manipulating and working with arrays and objects is an essential skill for any JavaScript developer. This set of exercises will help you strengthen your understanding of common and advanced methods such as `.map()`, `.filter()`, `.reduce()` for arrays, and object property manipulation. Tests have also been implemented for each exercise to ensure correct results and to help you learn best practices for test-driven development.
+This sprint contains a series of practical exercises designed to learn arrays and object methods. Additionally, tests have been implemented to validate the correct functioning of each method, providing a more robust and reliable experience.
 
 ## Technologies Used
 
