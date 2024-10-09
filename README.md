@@ -1,14 +1,43 @@
-# Testing
-This project provides a series of JavaScript functions that manipulate and analyze an array of movie objects. Each function addresses a specific task, using various JavaScript methods to filter, map, and reduce the data. Here's a brief overview of the methods and strategies used to solve the exercises:
+# Sprint 3
 
-* Mapping: The map() function is used to transform arrays, such as extracting specific properties (e.g., director names or movie titles) from the movie objects.
+This sprint contains a series of practical exercises designed learn arrays and object methods. The exercises focus on various aspects of data manipulation and processing using JavaScript's built-in functions and methods. Additionally, tests have been implemented to validate the correct functioning of each method, providing a more robust and reliable experience.
 
-* Filtering: The filter() method is employed to select subsets of the data based on criteria, like movies directed by a specific director or belonging to a certain genre.
+## Introduction
 
-* Sorting: Several exercises require sorting movies by different criteria, such as titles or release years. The sort() method is used to reorder movies either alphabetically or numerically.
+Manipulating and working with arrays and objects is an essential skill for any JavaScript developer. This set of exercises will help you strengthen your understanding of common and advanced methods such as `.map()`, `.filter()`, `.reduce()` for arrays, and object property manipulation. Tests have also been implemented for each exercise to ensure correct results and to help you learn best practices for test-driven development.
 
-* Reducing: To compute aggregates, such as averages or the best movie in a year, the reduce() method is applied. This helps in accumulating values, like summing up scores.
+## Technologies Used
 
-* Regex and String Manipulation: In exercises involving durations, regular expressions and string methods are used to convert time formats (e.g., hours and minutes) into a uniform numerical value.
+This project uses the following technologies:
 
-* These functions provide a foundational approach to working with arrays and objects in JavaScript. Even if the data is hard-coded, which is not realistic, the skills developed in these exercises are essential for solving real-world problems.
+- **JavaScript (ES6+)**: The main language used to implement the exercises.
+- **Node.js**: A JavaScript runtime that allows you to run scripts and tests locally.
+- **Jest**: A testing framework used to perform tests on the various methods and exercises. It provides a simple and robust environment to execute and validate function results.
+- **NPM**: A package manager used to install the necessary dependencies to run the tests.
+
+## Key Features
+
+- **Array Methods**: The exercises cover a variety of array methods, including:
+  - `.map()`
+  - `.filter()`
+  - `.reduce()`
+  - `.find()`
+  - `.some()`
+  - `.every()`
+  - `.forEach()`
+  - `.sort()`
+  - `.includes()`
+
+- **Object Manipulation**: Exercises include creating, modifying, and accessing properties in objects.
+
+- **Testing**: Each method and exercise has an associated test implemented with Jest to ensure the code behaves as expected.
+
+- **Modular Structure**: The exercises are organized into separate modules for easier understanding and management.
+
+## Prerequisites
+
+Before starting with these exercises, make sure you have the following installed in your development environment:
+
+- **Node.js (version 12 or higher)**: To run scripts and tests locally.
+- **NPM**: Installed along with Node.js, used to install necessary dependencies.
+- **Code Editor**: A code editor like Visual Studio Code is recommended for efficiently working with the exercises and running tests.
