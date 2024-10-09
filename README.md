@@ -11,4 +11,4 @@ This project provides a series of JavaScript functions that manipulate and analy
 
 * Regex and String Manipulation: In exercises involving durations, regular expressions and string methods are used to convert time formats (e.g., hours and minutes) into a uniform numerical value.
 
-* These functions provide a foundational approach to working with arrays and objects in JavaScript, emphasizing key data transformation techniques essential for solving real-world problems.
+* These functions provide a foundational approach to working with arrays and objects in JavaScript. Even if the data is hard-coded, which is not realistic, the skills developed in these exercises are essential for solving real-world problems.
